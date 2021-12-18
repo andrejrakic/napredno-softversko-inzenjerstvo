@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/napredno-softversko-inzenjerstvo/static/css/main.9cd6ed12.chunk.css",
+    "main.js": "/napredno-softversko-inzenjerstvo/static/js/main.e66e95d8.chunk.js",
+    "main.js.map": "/napredno-softversko-inzenjerstvo/static/js/main.e66e95d8.chunk.js.map",
+    "runtime-main.js": "/napredno-softversko-inzenjerstvo/static/js/runtime-main.8df7382e.js",
+    "runtime-main.js.map": "/napredno-softversko-inzenjerstvo/static/js/runtime-main.8df7382e.js.map",
+    "static/js/2.3d800c3d.chunk.js": "/napredno-softversko-inzenjerstvo/static/js/2.3d800c3d.chunk.js",
+    "static/js/2.3d800c3d.chunk.js.map": "/napredno-softversko-inzenjerstvo/static/js/2.3d800c3d.chunk.js.map",
+    "index.html": "/napredno-softversko-inzenjerstvo/index.html",
+    "static/css/main.9cd6ed12.chunk.css.map": "/napredno-softversko-inzenjerstvo/static/css/main.9cd6ed12.chunk.css.map",
+    "static/js/2.3d800c3d.chunk.js.LICENSE.txt": "/napredno-softversko-inzenjerstvo/static/js/2.3d800c3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8df7382e.js",
+    "static/js/2.3d800c3d.chunk.js",
+    "static/css/main.9cd6ed12.chunk.css",
+    "static/js/main.e66e95d8.chunk.js"
+  ]
+}
