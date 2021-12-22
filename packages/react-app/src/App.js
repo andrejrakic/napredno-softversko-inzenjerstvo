@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './styles/App.css';
 import { ethers } from 'ethers';
 import ElfakNFT from './utils/ElfakNFT.json';
+import { Rinkeby } from '@usedapp/core';
 
 const App = () => {
 	const [currentAccount, setCurrentAccount] = useState('');
@@ -29,15 +30,12 @@ const App = () => {
 		}
 	};
 
-	/*
-	 * Implement your connectWallet method here
-	 */
 	const connectWallet = async () => {
 		try {
 			const { ethereum } = window;
 
 			if (!ethereum) {
-				alert('Get MetaMask!');
+				alert('Make sure you have metamask!');
 				return;
 			}
 
@@ -89,10 +87,7 @@ const App = () => {
 				setIsButtonDisabled(true);
 				await nftTxn.wait();
 
-				setStatusMessage(
-					`Mined, see transaction: https://rinkeby.etherscan.io/tx/${nftTxn.hash}`
-				);
-				setIsButtonDisabled(false);
+				setStatusMessage(Rinkeby.getExplorerTransactionLink(nftTxn.hash));
 			} else {
 				console.log("Ethereum object doesn't exist!");
 			}
